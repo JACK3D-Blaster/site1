@@ -1,0 +1,103 @@
+body {
+	font-family: Verdana, Arial, sans-serif;
+	width: 1280px;
+	margin: auto;
+	background-color: #ddd;
+}
+
+#header-image {
+	width: 1280px;
+	height: 650px;
+	background-image: url(aprilia.jpg);
+}
+
+#header-image-2 {
+    background-image: url(Motogp.PNG);
+    width: 1280px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #444
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	display: block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: #111;
+}
+
+#container {
+	background: url(Background.jpg)
+	
+}
+
+#content {
+	width: 800px;
+	min-height: 400px;
+	margin:auto;
+	padding: 20px;
+	background-color: white;
+	color: black;
+	border-left: 150px solid green;
+	border-right: 150px solid red;
+	
+}
+
+footer {
+	text-align: center;
+	background-color: #444;
+	color: white;
+	padding: 10px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 800px;
+	align-content: center;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 20px;
+}
+h1{
+	font-size: 38px;
+}
+
+.models{
+	float:right;
+}
+
+.center-text{
+	text-align: center;
+}
+
+p, h1, h2, h3, h4, title, td, tr{
+	color: #313638;
+}
+
+.centerfloat {
+    margin-left: 200px;
+}
+
+
+.reference { text-decoration: none; color: blue;} // when link not clicked
+
+.reference {color:blue;} // after link has been clicked
+
+.reference {color:red;} // when cursor hovers over the link
+
+.reference {color:blue;} // when the link is active
